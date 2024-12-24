@@ -21,9 +21,7 @@
 title: A Barry
 email: a@abarry.us
 description: >- # this means to ignore newlines until "baseurl:"
-  My real name since birth is A, but since "A" is confusing so I usually go by Alex.
-  On the internet my username is outerpasta.
-  This is just my personal site.
+  It's outerpasta.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://abarry.us" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: outerpasta
