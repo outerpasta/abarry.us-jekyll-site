@@ -21,7 +21,7 @@
 title: A Barry
 email: a@abarry.us
 description: >- # this means to ignore newlines until "baseurl:"
-  It's outerpasta.
+  A Alexander Tighe Barry
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://abarry.us" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: outerpasta
