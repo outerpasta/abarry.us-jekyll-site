@@ -4,3 +4,4 @@
 
 layout: home
 ---
+![Cartoon face](/assets/images/face.png){:style="display:block; margin-left: auto; margin-right: auto;"}
