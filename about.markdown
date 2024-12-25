@@ -9,5 +9,5 @@ My full name is A Alexander Tighe Barry.
 I sometimes go by Alex.
 On the internet my username is outerpasta.
 
-![outerpasta](/assets/images/outerpasta.png){:width="256"}
+![outerpasta](/assets/images/outerpasta.png){:width="256"}{:style="clip-path: circle(50%);"}
 
