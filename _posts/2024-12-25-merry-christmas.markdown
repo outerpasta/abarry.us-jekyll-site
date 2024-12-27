@@ -7,4 +7,4 @@ categories: holiday family
 I rushed together this collage in just 2 minutes with Gimp.
 Just wanted to share.
 
-![Merry Christmas](/assets/images/merry-christmas-2024.png)
+![Merry Christmas]({{ "/assets/images/merry-christmas-2024.png" | absolute_url }})
