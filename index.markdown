@@ -3,4 +3,4 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-![A Barry](/assets/images/a-barry.svg){:width="512"}
+![A Barry](/assets/images/A-Barry.svg){:width="512"}
