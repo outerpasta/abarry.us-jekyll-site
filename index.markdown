@@ -4,3 +4,4 @@
 layout: home
 ---
 ![A Barry](/assets/images/image-1.webp)
+Generated with [Illusion Diffusion](https://huggingface.co/spaces/AP123/IllusionDiffusion)
