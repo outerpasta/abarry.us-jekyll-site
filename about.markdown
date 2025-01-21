@@ -5,5 +5,5 @@ permalink: /about/
 ---
 This is just my personal website.
 
-![selfie](/assets/images/selfie-triangles.png){:width="256"}{:style="clip-path: circle(48%);"}
+![selfie](/assets/images/me-with-triangles.png){:width="256"}{:style="clip-path: circle(48%);"}
 
