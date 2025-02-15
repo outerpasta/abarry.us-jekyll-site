@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Emacs is the best text editor
+title: Emacs Is the Best Text Editor
 date: 2025-01-02 15:29 -0800
 ---
 I love Emacs. [My first ever post on Reddit][my-reddit-post]{:target="_blank"} is of a meme-inspired image I made just now. I'm posting it here as well and using it as an excuse to share something about Emacs that I think is cool:

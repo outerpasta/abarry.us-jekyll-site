@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Literally just a post"
+title:  "Literally Just a Post"
 date:   2024-12-23 16:35:41 -0800
 categories: jekyll update
 ---
