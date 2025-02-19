@@ -3,4 +3,4 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-![abarry.us](/assets/images/ABarry-signature.png)
+![abarry.us](/assets/images/abarry.us.webp)
