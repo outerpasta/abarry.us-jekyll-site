@@ -1,0 +1,33 @@
+﻿A Alexander Barry
+QA Tester
+3011 4th St.
+Santa Monica, CA 90405
+(310) 310-1806
+aalexanderbarry@gmail.com
+SKILLS
+Python. Software Testing. QA Automation. Continuous Integration.
+EXPERIENCE
+Chrome River Technologies,  Los Angeles - Rules Validation Tester
+2018
+* Tested workflows to ensure our solutions met the customers’ business needs.
+* Worked with analysts, software engineers to trouble-shoot issues, often using SQL queries and Toad.
+Verox Tech, Los Angeles - Software Quality Analyst
+2017 - 2018
+* Detected and diagnosed bugs for custom business software, and developed test automation using Selenium web automation.
+* Experience working with databases using SQL queries.
+Jukin Media, Los Angeles - Associate QA Engineer
+2016 - 2017
+* Developed test automation running on AWS using Selenium web automation.
+* Developed tools to aid regression testing for the QA team.
+* Planned and managed software test plans to detect and diagnose errors and bugs for the company’s custom business software, APIs, MRSS feed, public facing websites, and Roku application.
+* Experience with Python, Robot Framework, Bash, Groovy, Spock, GEB, and Javascript.
+* Experience working with databases using SQL queries.
+Playsino, Santa Monica- Jr. Software Engineer/QA Analyst
+2013 - 2015
+* Planned, developed and administered software test plans to detect and diagnose errors and bugs for the company’s app platform, and our many front-end clients for iPhone, iPad, Kindle, Nook, Android, and Samsung TV.
+* Developed test automation software running on AWS using Selenium web automation.
+* Experience with Python, Bash.
+* Experience working with databases using SQL queries.
+* Lead QA Analyst for dual screen experience Bingo game that incorporated Mobile devices playing a social game alongside a Smart TV running a Unity3D client.
+* Developed bots for testing and live demos at CES.
+* Performed regression, integration, platform and performance testing to certify the stability and usability of software systems.
