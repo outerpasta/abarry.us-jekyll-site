@@ -1,9 +1,9 @@
-﻿A Alexander Barry
+A Alexander Barry
 QA Tester
 3011 4th St.
 Santa Monica, CA 90405
 (310) 310-1806
-aalexanderbarry@gmail.com
+a@abarry.us
 SKILLS
 Python. Software Testing. QA Automation. Continuous Integration.
 EXPERIENCE
