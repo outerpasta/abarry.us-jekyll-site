@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Barry's Blog
+title: Barry's Boring Blog
 timezone: America/Los_Angeles
 author: A Alexander Barry
 email: outerpasta@gmail.com
