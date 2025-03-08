@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨🌈 Barry's Blog! 💖🦄</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(135deg, #ff69b4, #8a2be2, #00ced1, #ffd700);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            color: #ff1493;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px #000;
+            margin-bottom: 30px;
+            color: #ffff00;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px #333;
+            color: #00fa9a;
+        }
+
+        .emoji-section {
+            display: block;
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+
+        .button-container {
+            margin-top: 40px;
+        }
+
+        .camp-button {
+            background-color: #ffb6c1;
+            border: 3px dashed #8b008b;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 25px;
+            color: #8b008b;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .camp-button:hover {
+            transform: scale(1.1);
+            background-color: #dda0dd;
+        }
+
+        .confetti-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .confetti {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            animation: confettiFall 3s linear infinite;
+        }
+
+        @keyframes confettiFall {
+            0% {
+                transform: translateY(-100vh) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        #partyImage {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            right: -500px;
+            width: 400px;
+            transition: right 1s ease-in-out;
+        }
+
+        #partyImage.active {
+            right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>✨🌈 Welcome to Barry's Blog! 💖🦄</h1>
+
+    <emoji-section>
+        <span role="img" aria-label="Sparkles">✨</span><span role="img" aria-label="Rainbow">🌈</span><span role="img" aria-label="Heart">💖</span><span role="img" aria-label="Unicorn">🦄</span><span role="img" aria-label="Party Popper">🎉</span><span role="img" aria-label="Star-Struck">🤩</span><span role="img" aria-label="Dizzy">😵‍💫</span><span role="img" aria-label="Cherry Blossom">🌸</span>
+    </emoji-section>
+
+    <p>Get ready for a totally tubular time! 🥳 We're serving up some serious fun, so buckle up, buttercup! 💋</p>
+
+    <p>This is where the magic happens! 🪄 Expect the unexpected, and prepare to be dazzled! 🌟</p>
+
+    <emoji-section>
+        <span role="img" aria-label="Smiling Face with Sunglasses">😎</span><span role="img" aria-label="Lipstick">💄</span><span role="img" aria-label="High Heels">👠</span><span role="img" aria-label="Diamond">💎</span><span role="img" aria-label="Clapping Hands">👏</span><span role="img" aria-label="Eyes">👀</span>
+    </emoji-section>
+
+    <div class="button-container">
+        <a href="/"><button class="camp-button">💖 Click for the home page! 💖</button></a>
+        <button class="camp-button" id="sparkleButton">✨ Sparkle Time! ✨</button>
+        <button class="camp-button" id="partyButton">🥳 Party! 🥳</button>
+    </div>
+
+    <div class="confetti-container" id="confettiContainer"></div>
+    <img id="partyImage" src="/assets/images/party.svg" alt="T-Rex">
+
+    <script>
+        const sparkleButton = document.getElementById('sparkleButton');
+        const confettiContainer = document.getElementById('confettiContainer');
+        const partyButton = document.getElementById('partyButton');
+        const partyImage = document.getElementById('partyImage');
+
+        sparkleButton.addEventListener('click', () => {
+            const colors = ['#ff69b4', '#8a2be2', '#00ced1', '#ffd700', '#ff1493', '#00fa9a'];
+            const numConfetti = 100;
+
+            for (let i = 0; i < numConfetti; i++) {
+                const confetti = document.createElement('div');
+                confetti.classList.add('confetti');
+                confetti.style.left = `${Math.random() * 100}vw`;
+                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                confetti.style.animationDelay = `${Math.random() * 2}s`;
+                confettiContainer.appendChild(confetti);
+            }
+
+            setTimeout(() => {
+                confettiContainer.innerHTML = '';
+            }, 3000);
+        });
+
+        partyButton.addEventListener('click', () => {
+            partyImage.classList.add('active');
+            setTimeout(() => {
+                partyImage.classList.remove('active');
+            }, 4000);
+        });
+    </script>
+</body>
+</html>
