@@ -128,43 +128,13 @@
 
     <div class="button-container">
         <a href="/"><button class="camp-button">😐 Boring Blog 😐</button></a>
-        <button class="camp-button" id="sparkleButton">✨ Confetti! ✨</button>
+        <button class="camp-button" id="confettiButton">✨ Confetti! ✨</button>
         <button class="camp-button" id="partyButton">🥳 Let's party! 🥳</button>
     </div>
 
     <div class="confetti-container" id="confettiContainer"></div>
     <img id="partyImage" src="/assets/images/party.svg" alt="T-Rex">
-
-    <script>
-        const sparkleButton = document.getElementById('sparkleButton');
-        const confettiContainer = document.getElementById('confettiContainer');
-        const partyButton = document.getElementById('partyButton');
-        const partyImage = document.getElementById('partyImage');
-
-        sparkleButton.addEventListener('click', () => {
-            const colors = ['#ff69b4', '#8a2be2', '#00ced1', '#ffd700', '#ff1493', '#00fa9a'];
-            const numConfetti = 100;
-
-            for (let i = 0; i < numConfetti; i++) {
-                const confetti = document.createElement('div');
-                confetti.classList.add('confetti');
-                confetti.style.left = `${Math.random() * 100}vw`;
-                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
-                confetti.style.animationDelay = `${Math.random() * 2}s`;
-                confettiContainer.appendChild(confetti);
-            }
-
-            setTimeout(() => {
-                confettiContainer.innerHTML = '';
-            }, 3000);
-        });
-
-        partyButton.addEventListener('click', () => {
-            partyImage.classList.add('active');
-            setTimeout(() => {
-                partyImage.classList.remove('active');
-            }, 4000);
-        });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script src="/assets/js/fun.js"></script>
 </body>
 </html>
