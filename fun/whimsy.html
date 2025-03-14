@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whimsy & Whirls</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #f0e68c; /* Light Yellow */
+            color: #333; /* Dark Gray */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 50px;
+        }
+
+        h1 {
+            color: #800080; /* Purple */
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .verse {
+            background-color: #00ced1; /* Light Blue */
+            color: #fff; /* White */
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        .verse strong {
+            color: #ffd700; /* Gold */
+        }
+
+        .emoji-rain {
+            font-size: 2em;
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .emoji-rain span {
+            position: absolute;
+            animation: rain 5s linear infinite;
+        }
+
+        @keyframes rain {
+            0% {
+                transform: translateY(-100px);
+            }
+            100% {
+                transform: translateY(300px);
+            }
+        }
+
+        .button {
+            background-color: #ff6347; /* Tomato */
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #d11a00;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Whimsy & Whirls 🌀✨</h1>
+
+        <p>Where golden sunbeams dance and twirls,<br>
+           And silver moonbeams softly unfurls.<br>
+           A place of dreams, a vibrant hue,<br>
+           Where magic blooms, forever new. 🌈</p>
+
+        <div class="verse">
+            <p>In realms of thought, where stars ignite,<br>
+               <strong>Words like fireflies</strong>, in darkest night.<br>
+               A whisper soft, a gentle breeze,<br>
+               Through rustling leaves of ancient trees. 🌳</p>
+        </div>
+
+        <div class="emoji-rain">
+            <span style="left: 10%; animation-delay: 0.5s;">🌟</span>
+            <span style="left: 30%; animation-delay: 1s;">💖</span>
+            <span style="left: 50%; animation-delay: 2s;">✨</span>
+            <span style="left: 70%; animation-delay: 3s;">🌙</span>
+            <span style="left: 90%; animation-delay: 4s;">💫</span>
+            <span style="left: 5%; animation-delay: 1.5s;">🌸</span>
+            <span style="left: 25%; animation-delay: 2.5s;">💧</span>
+            <span style="left: 45%; animation-delay: 3.5s;">💎</span>
+            <span style="left: 65%; animation-delay: 0.8s;">🌻</span>
+            <span style="left: 85%; animation-delay: 2.2s;">🦋</span>
+        </div>
+
+        <p>A river flows, a silver stream,<br>
+           Reflecting skies, a waking dream.<br>
+           With every ripple, secrets hide,<br>
+           Where joyful spirits softly glide. 🌊</p>
+
+        <button class="button">Dive into the Dream</button>
+
+    </div>
+
+</body>
+</html>
+
