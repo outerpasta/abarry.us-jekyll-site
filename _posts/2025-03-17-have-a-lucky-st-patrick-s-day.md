@@ -9,6 +9,6 @@ May the road rise up to meet you, may the wind be always at your back, may the s
 
 Another holiday, another collage.
 
-![St Patricks Day Collage]({{ "/assets/images/stpatricksdaycollage2025.png" | absolute_url }})
+![St Patrick's Day Collage]({{ "/assets/images/stpatricksdaycollage2025.png" | absolute_url }})
 
 Clip art from [OPENCLIPART](https://openclipart.org/).
